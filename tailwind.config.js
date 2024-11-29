@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        15: "15px",
+        100: "100%",
+        0: "0%",
+        24: "24px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
